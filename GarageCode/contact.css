@@ -1,0 +1,97 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: rgb(179, 128, 137);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+}
+body {
+    background-color: rgb(251, 249, 249);
+}
+    footer{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        background-color: rgb(255,255,255, 0.4);
+    }
+        footer ul:first-child{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            list-style: none;
+            padding: 0;
+        }
+        footer a:first-child{
+            text-decoration: none;
+            padding: 15px;
+            margin: 2px;
+            color: maroon;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: x-large;
+            }
+        form {
+            margin: 0 auto;
+            width: 400px;
+            padding: 1em;
+            border: 1px solid rgb(49, 3, 3);
+            border-radius: 1em;   
+            }
+        div > label {
+            display: block;
+        }
+        
+        label {
+            position: relative;
+        }
+        input:focus:invalid, textarea:focus:invalid{
+            border-color: red;
+        }
+        button {
+            margin: 20px 0 0 100px;
+            }
+    header{
+        background-image:linear-gradient(to bottom,#fff, #fff8 ), url("img/img3.jpeg") ;
+        width: 100%;
+        height: 500px;
+        background-position: center;
+        background-size: 100% 100%, contain;
+        background-attachment: local, fixed;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        flex-grow: 1;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: large;
+        line-height: 36px;
+        
+    }
+    #conteiner{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-content: flex-end;
+        flex-grow: 4;
+    }
+    @media screen and (max-width:1300px){
+        article div{
+            flex-direction: column;
+        }
+    }
+    
+    @media screen and (max-width:1024px){
+        #container{
+            flex-direction: column;
+        }
+    
+        nav ul{
+            flex-direction: row;
+        }
+    }
