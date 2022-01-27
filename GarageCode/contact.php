@@ -44,7 +44,7 @@
                 <label for="message">VOTRE PRESTATION:</label>
                 <textarea placeholder="votre message" name="message" cols="50" rows="20" id="msg"></textarea>
             </div class="page">
-            <div><button> Envoyer </button> <input type="reset" nom="envoyer"  value="Annuler"></input></div>
+            <div><button> Envoyer </button> <input type="reset" nom="envoyer" id="btn" value="Annuler"></input></div>
         </form>
     </section>
     <footer>

@@ -19,6 +19,9 @@ document.getElementById("conteiner").addEventListener("submit", function (e) {
         alert('Formulaire envoye!');
     }
 
+    document.getElementById("btn").addEventListener("click", function() {
+        alert("Nous avons bien reçu votre demande, un technicien va répondre dans les plus bref délais ");
+    });
     // const form = document.getElementById("conteiner");
     // const userName = document.getElementById("ContactName");
     // const mail = document.getElementById("ContactMail");
